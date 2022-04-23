@@ -1,0 +1,22 @@
+{
+  "name": "spidervers",
+  "version": "1.0.0",
+  "description": "TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoEspinoza02/Spidervers.git"
+  },
+  "keywords": [
+    "TDD"
+  ],
+  "author": "BERNARDO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BernardoEspinoza02/Spidervers/issues"
+  },
+  "homepage": "https://github.com/BernardoEspinoza02/Spidervers#readme"
+}
