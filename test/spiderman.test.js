@@ -1,5 +1,6 @@
 const Spiderman = require("./../app/spiderman")
 
+
 describe ("Test Suite Dummy Description", () => {
     test('1) Create an Spiderman object', () => {
         //Aqui Escribimos el codigo que queremos usar tal cual
@@ -14,5 +15,10 @@ describe ("Test Suite Dummy Description", () => {
         expect(andrewGarfield.movies).toBe(2)
         expect(andrewGarfield.studio).toBe("Sony")
 
+    });
+
+    test('2) Use the method getInfo()', () => {
+        const tomHolland = new Spiderman("Spiderman Marvel", 25, "Tom Holland", 5, "Marvel")
+        expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel studiooo")
     });
 })
